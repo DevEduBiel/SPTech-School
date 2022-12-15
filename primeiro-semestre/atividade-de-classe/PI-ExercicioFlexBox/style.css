@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+    display: flex;
+}
+
+
+.start{
+    margin-bottom: 10px;
+    justify-content: start;
+}
+
+.end{
+    margin-bottom: 10px;
+    justify-content: end;
+}
+
+.center{
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.space-between{
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+.space-arond{
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.space-none{
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+}
+
+.exercicioB{
+    margin-bottom: 10px;
+    justify-content: start;
+    flex-direction: column;
+}
+.desafio{
+    margin-bottom: 10px;
+    justify-content: start;
+    flex-direction: row-reverse;
+}
+
+.bloco{
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.azul {
+    background-color: #63b1bc;
+}
+
+.azulmarinho {
+    background-color: #1f2a44;
+}
+
+.vermelho {
+    background-color: #ed145b;
+}
+
+.amarelo {
+    background-color: #efb661;
+}
